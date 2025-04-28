@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "No build step required for static HTML/JS/CSS project."
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
